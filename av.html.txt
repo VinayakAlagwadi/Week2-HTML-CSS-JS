@@ -1,0 +1,33 @@
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head><title>Final Highlights</title>
+</head>
+<body style="background:beige">
+<table id="table1" style="width:100%;background:grey;">
+<tr><th><h1>AV</h1></th></tr>
+</table>
+<video width="1400" height="500" controls autoplay muted>
+<source src=" https://www.iplt20.com/video/228228/final-mi-vs-dc-match-highlights">
+
+</video>
+<h2>Check location </h2>
+<script>
+var x = document.getElementById("demo");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+</body>
+</html>

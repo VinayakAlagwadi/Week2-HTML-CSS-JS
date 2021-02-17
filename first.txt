@@ -1,0 +1,7 @@
+<html>
+<head>
+<body bg-color="blue">
+
+</body>
+</head>
+</html>
